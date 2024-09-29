@@ -1,0 +1,49 @@
+.drop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 2;
+    width: 20vw;
+    height: auto;
+}
+
+.login > .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.login > .form > .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login > .form > .form-row.vertical {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5em;
+}
+
+.login > .form > .form-row.centered {
+    justify-content: center;
+}
+
+.error {
+    color: red;
+}
