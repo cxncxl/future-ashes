@@ -1,0 +1,3 @@
+[submodule "another-survival-game"]
+	path = another-survival-game
+	url = git@cxncxl:cxncxl/another-survival-game.git
