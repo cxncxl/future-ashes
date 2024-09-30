@@ -1,3 +1,3 @@
 export const environment = {
-    API_URL: 'http://future-ashes.online'
+    API_URL: 'http://future-ashes.online:3000'
 };
