@@ -20,7 +20,7 @@ export class GameComponent implements OnInit {
         }
 
         const gameScript = document.createElement('script');
-        gameScript.src = 'game/bundle.js';
+        gameScript.src = 'gamebuild/bundle.js';
 
         document.body.appendChild(gameScript);
     }
