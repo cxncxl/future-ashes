@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "postinstall": "git submodule update --init --recursive",
-    "prebuild": "git submodule foreach '(git checkout master; git pull)&'",
+    "prebuild": "git submodule foreach '(git checkout master; git pull)'",
     "postbuild": "cd another-survival-game && npm install && npm run build && cp -r dist/ ../dist/future-ashes-web/browser/gamebuild"
   },
   "private": true,
